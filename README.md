@@ -12,7 +12,7 @@ To use, add the following to composer.json:
             "type": "git",
             "url": "https://github.com/thinktandem/url_checker"
         },
-    }
+    ]
 ```
 
 Then run:
