@@ -1,0 +1,8 @@
+url_checker.url_checker_form:
+  path: '/admin/config/services/url-checker'
+  defaults:
+    _form: '\Drupal\url_checker\Form\UrlCheckerForm'
+    _title: 'UrlCheckerForm'
+  requirements:
+    _permission: 'use url checker'
+  

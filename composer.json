@@ -1,0 +1,13 @@
+{
+  "name": "thinktandem/url_checker",
+  "type": "drupal-module",
+  "description": "Checks URLs and returns their status codes",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/thinktandem/url_checker",
+  "authors": [
+    {
+      "name": "John Ouellet",
+      "email": "john@thinktandem.io"
+    }
+  ]
+}

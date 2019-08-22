@@ -1,0 +1,5 @@
+url_checker.url_checker_form:
+  route_name: url_checker.url_checker_form
+  title: 'URL Checker'
+  description: 'Checks URLs and returns their status codes.'
+  parent: system.admin_config_services

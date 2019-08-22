@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains url_checker.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function url_checker_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the url_checker module.
+    case 'help.page.url_checker':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Checks URLs and returns their status codes') . '</p>';
+      return $output;
+
+    default:
+  }
+}
