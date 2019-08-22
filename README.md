@@ -18,5 +18,5 @@ To use, add the following to composer.json:
 Then run:
 
 ```bash
-composer require "thinktandem/minimis:dev-master"
+composer require "thinktandem/url_checker:dev-master"
 ```
